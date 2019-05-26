@@ -1,0 +1,25 @@
+{
+  "name": "laravel-mix-env",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run watch",
+    "dev": "NODE_ENV=development webpack --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development webpack --config=node_modules/laravel-mix/setup/webpack.config.js --watch",
+    "prod": "NODE_ENV=production  webpack --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "browser-sync": "^2.26.5",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "laravel-mix": "^4.0.15",
+    "postcss-css-variables": "^0.12.0",
+    "resolve-url-loader": "2.3.1",
+    "sass": "^1.20.1",
+    "sass-loader": "7.*",
+    "ts-loader": "^6.0.1",
+    "typescript": "^3.4.5",
+    "vue-template-compiler": "^2.6.10"
+  }
+}

@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+}
+
+.box {
+  display: flex;
+  color: #ff0000;
+}
+
+.test {
+  color: #3097D1;
+  font-size: 20px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
